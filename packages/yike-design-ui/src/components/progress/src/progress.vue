@@ -72,6 +72,7 @@ import { ProgressProps } from './progress'
 defineOptions({
   name: 'YkProgress',
 })
+// ceshi
 const props = withDefaults(defineProps<ProgressProps>(), {
   type: 'line',
   percent: 20,
